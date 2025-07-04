@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#commodities {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.commodity {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.commodity img {
+    width: 100%;
+    height: auto;
+}
